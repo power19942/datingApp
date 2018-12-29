@@ -1,0 +1,7 @@
+<p>
+  value works!
+</p>
+
+<span *ngIf="values && values.length > 0">
+  <h1 class="alert alert-danger" *ngFor="let v of values">{{v.name}}</h1>
+</span>
